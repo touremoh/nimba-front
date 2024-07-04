@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'nimba-front';
+  pageHidden = false;
+
+  handleNavigationRequest(value: string) {
+    console.log('Event received ' + value);
+    this.pageHidden = !this.pageHidden;
+  }
 }
