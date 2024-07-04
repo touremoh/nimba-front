@@ -1,0 +1,40 @@
+.app-login-page {
+  width: 100vw;
+  height: 100vh;
+}
+
+.app-login-page-left-pane {
+  width: 35%;
+  height: 100%;
+  background-color: whitesmoke;
+}
+
+.app-login-page-right-pane {
+  width: 100%;
+  height: 100%;
+  background-color: #001eb7;
+}
+
+.app-login-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 80%;
+  margin-top: 35%;
+}
+
+.app-login-pane {
+  width: 100%;
+  margin-left: 10%;
+  position: center;
+}
+
+.mat-form-field-full-width {
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.app-login-pane-title {
+  position: center;
+  padding-top: 25px;
+  font-weight: bold;
+}
